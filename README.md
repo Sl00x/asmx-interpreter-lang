@@ -1,39 +1,46 @@
 # AsmX-Interpreter | CSharp
 
-**AsmX-Interpreter** est un exemple d'interpréteur de langage écrit en C#. Ce projet a pour objectif de démontrer les concepts de base de l'interprétation de code, de la lexérisation à l'exécution, en passant par l'analyse syntaxique et sémantique.
+**AsmX-Interpreter** is a sample language interpreter written in C#. This project aims to demonstrate the basic concepts of code interpretation, from lexing to execution, including syntax and semantic analysis.
 
-## Fonctionnalités
+## Features
 
-- **Lexeur** : Analyse le texte source et génère des jetons.
-- **Tokenisation** : Analyse du lexer, puis tokenisation de celui-ci
-- **Analyseur syntaxique** : Transforme les jetons en un arbre syntaxique abstrait (AST).
-- **Interpréteur** : Exécute l'AST pour produire des résultats.
+- **Lexer**: Analyzes the source text and generates tokens.
+- **Tokenization**: Analyzes the lexer's output and tokenizes it.
+- **Parser**: Transforms tokens into an abstract syntax tree (AST).
+- **Interpreter**: Executes the AST to produce results.
+- **Syntaxor**: Syntaxor is a CLI-based TextEditor class that uses syntax highlighting to facilitate reading.
+  - **Save**: Save the input as an output.txt file.
+  - **Console**: Allows interpreting code directly in the editor.
 
-- **Syntaxor** : Syntaxor est une classe de TextEditor en CLI utilisant le Syntax Hilighting pour facilité la  lecture.
-  - **Sauvegarder** : Sauvegarder du l'input en fichier output.txt
-  - **Console** : Possibilité d'interpreter le code directement dans l'editeur.
+## Prerequisites
 
-## Prérequis
-
-- .NET SDK 8.0 ou supérieur
+- .NET SDK 8.0 or higher
 
 ## Installation
 
-1. Clonez le repository :
+1. Clone the repository:
     ```bash
     git clone https://github.com/Sl00x/asmx-interpreter-lang.git
     ```
-2. Accédez au dossier du projet :
+2. Navigate to the project directory:
     ```bash
     cd asmx-interpreter-lang
     ```
-3. Restaurez les dépendances :
+3. Restore dependencies:
     ```bash
     dotnet restore
     ```
-4. Compilez le projet :
+4. Build the project:
     ```bash
     dotnet build
     ```
-![Capture_decran_2024-06-20_134515](https://github.com/Sl00x/asmx-interpreter-lang/assets/30964327/dfe11c0e-a925-42e8-96eb-ebf140e00997)
 
+![Screenshot](https://github.com/Sl00x/asmx-interpreter-lang/assets/30964327/dfe11c0e-a925-42e8-96eb-ebf140e00997)
+
+## Contribution
+
+Contributions are welcome! Please read our [Contribution Guide](CONTRIBUTING.md) for details on the process of submitting pull requests.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
