@@ -35,3 +35,5 @@
     ```bash
     dotnet build
     ```
+![Capture_decran_2024-06-20_134515](https://github.com/Sl00x/asmx-interpreter-lang/assets/30964327/dfe11c0e-a925-42e8-96eb-ebf140e00997)
+
